@@ -288,7 +288,7 @@ def test_complete_task_lifecycle(client):
     # Vérifier que nos deux tâches sont dans la liste
     task_ids = [task["id"] for task in tasks]
     assert task1_id in task_ids
-    assert task2_id in task_id
+    assert task2_id in task_ids
 
 
 # =============================================================================
